@@ -6,7 +6,7 @@ import Enquiry from '../components/enquiry/enquiry';
 import Financials from '../components/financials/financials';
 import Commitment from '../components/commitment/committment';
 import AdminAccessModal from '../components/AdminAccessModal';
-
+import Productcommittment from '../components/productcommittment/productcommittment';
 export default function Home() {
   return (
     <>
@@ -24,6 +24,11 @@ export default function Home() {
       {/* About Section */}
 <section id="about">
   <AboutCare />
+</section>
+
+{/* Product Commitment Section */}
+<section id="product-commitment">
+  <Productcommittment />
 </section>
 
 {/* Initiatives Section */}
