@@ -44,9 +44,9 @@ export default function ProductCommittment() {
         />
 
         {/* two columns overlay */}
-        <div className="absolute inset-0 grid grid-cols-1 md:grid-cols-2 z-10 p-4 sm:p-8 md:p-12 lg:p-16">
+        <div className="absolute inset-0 grid grid-cols-1 md:grid-cols-2 z-10 px-[120px] pt-[60px] pb-[60px]">
           {/* left col → 4 rows */}
-          <div className="flex flex-col justify-center">
+          <div className="flex flex-col justify-between">
             {[
               'Quality Standard',
               'Sustainable Innovation',

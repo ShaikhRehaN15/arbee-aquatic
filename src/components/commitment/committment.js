@@ -60,7 +60,7 @@ export default function Commitment() {
           "
         >
           <h3 className="text-[#454545] font-lato font-regular text-[24px] ">
-          INITIATIVES THAT CREATE LASTING CHANGE
+          PROTECTING OCEANS, SUSTAINING THE PLANET
           </h3>
           
          
@@ -75,7 +75,7 @@ export default function Commitment() {
           "
         >
           <Image
-            src="/safeguarding.png"
+            src="/IMG.png"
             alt="Safeguarding Marine Life"
             fill
             className="object-cover transition-transform duration-500 grayscale group-hover:grayscale-0 group-hover:scale-110"
@@ -84,7 +84,7 @@ export default function Commitment() {
           <div className="absolute inset-0 bg-black/30"></div>
           <div className="absolute inset-0 flex items-start justify-center text-white pt-[60px] text-center">
             <h4 className="text-[clamp(16px,calc(16px+(4*(100vw-320px)/704)),18px)] font-normal font-poppins">
-            Healthcare Access
+            Safeguarding Marine Life 
             </h4>
           </div>
         </div>
@@ -98,7 +98,7 @@ export default function Commitment() {
           "
         >
           <Image
-            src="/education.png"
+            src="/IMG(4).png"
             alt="Responsible Resource Management"
             fill
             className="object-cover transition-transform duration-500 grayscale group-hover:grayscale-0 group-hover:scale-110"
@@ -107,7 +107,7 @@ export default function Commitment() {
           <div className="absolute inset-0 bg-black/30"></div>
           <div className="absolute inset-0 flex items-start justify-center text-white pt-[60px] text-center">
             <h4 className="text-[clamp(16px,calc(16px+(4*(100vw-320px)/704)),18px)] font-normal font-poppins">
-            Education & Skill Development
+            Responsible Resource Management
             </h4>
           </div>
         </div>
@@ -121,7 +121,7 @@ export default function Commitment() {
           "
         >
           <Image
-            src="/sustainability.png"
+            src="/IMG(1).png"
             alt="Powering a Sustainable Future"
             fill
             className="object-cover transition-transform duration-500 grayscale group-hover:grayscale-0 group-hover:scale-110"
@@ -130,7 +130,30 @@ export default function Commitment() {
           <div className="absolute inset-0 bg-black/30"></div>
           <div className="absolute inset-0 flex items-start justify-center text-white pt-[60px] text-center">
             <h4 className="text-[clamp(16px,calc(16px+(4*(100vw-320px)/704)),18px)] font-normal font-poppins">
-             Sustainability & Environment
+             Powering a Sustainable Future
+            </h4>
+          </div>
+        </div>
+
+        {/* Card 5 */}
+        <div
+          className="
+            relative group cursor-pointer overflow-hidden
+            h-[140px] 
+            md:h-full
+          "
+        >
+          <Image
+            src="/IMG(2).png"
+            alt="Powering a Sustainable Future"
+            fill
+            className="object-cover transition-transform duration-500 grayscale group-hover:grayscale-0 group-hover:scale-110"
+          />
+         
+          <div className="absolute inset-0 bg-black/30"></div>
+          <div className="absolute inset-0 flex items-start justify-center text-white pt-[60px] text-center">
+            <h4 className="text-[clamp(16px,calc(16px+(4*(100vw-320px)/704)),18px)] font-normal font-poppins">
+             Capturing Rainwater for Conservation
             </h4>
           </div>
         </div>

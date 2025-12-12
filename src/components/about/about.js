@@ -80,39 +80,30 @@ export default function AboutCare() {
           <div className="flex flex-col justify-center gap-8 md:gap-10 text-white">
             <div className="flex items-center gap-6 py-6 border-t border-[#2f2f2f] first:border-t-0">
               <div className="flex-shrink-0 w-12 h-12 rounded-full bg-transparent flex items-center justify-center">
-                {/* teal icon (placeholder) */}
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12 2v6" stroke="#00AEEF" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
-                  <circle cx="12" cy="14" r="6" stroke="#00AEEF" strokeWidth="1.6"/>
-                </svg>
+                <Image src="/Vector(03).svg" alt="icon" width={60} height={60} />
               </div>
               <div className="flex-1">
-                <div className="text-[#00AEEF] text-[36px] font-bold">000+</div>
+                <div className=" text-[36px] font-bold">000+</div>
                 <div className="text-[#BDBDBD] text-sm mt-1">Years of Experience &amp; Innovation</div>
               </div>
             </div>
 
             <div className="flex items-center gap-6 py-6 border-t border-[#2f2f2f]">
               <div className="flex-shrink-0 w-12 h-12 rounded-full bg-transparent flex items-center justify-center">
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M3 7h18M3 12h18M3 17h18" stroke="#00AEEF" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
+                <Image src="/Vector(02).svg" alt="icon" width={60} height={60} />
               </div>
               <div className="flex-1">
-                <div className="text-[#00AEEF] text-[36px] font-bold">000+</div>
+                <div className="text-[36px] font-bold">000+</div>
                 <div className="text-[#BDBDBD] text-sm mt-1">Strong Team across APAC Region</div>
               </div>
             </div>
 
             <div className="flex items-center gap-6 py-6 border-t border-[#2f2f2f]">
               <div className="flex-shrink-0 w-12 h-12 rounded-full bg-transparent flex items-center justify-center">
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M4 6h16v12H4z" stroke="#00AEEF" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
-                  <path d="M8 10h8" stroke="#00AEEF" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round"/>
-                </svg>
+                <Image src="/Content ICONS.svg" alt="icon" width={60} height={60} />
               </div>
               <div className="flex-1">
-                <div className="text-[#00AEEF] text-[36px] font-bold">000+</div>
+                <div className="text-[36px] font-bold">000+</div>
                 <div className="text-[#BDBDBD] text-sm mt-1">Metric Tonnes per Annum Refined Fish Oil Production Capacity</div>
               </div>
             </div>

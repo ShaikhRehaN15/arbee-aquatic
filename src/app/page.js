@@ -7,6 +7,8 @@ import Financials from '../components/financials/financials';
 import Commitment from '../components/commitment/committment';
 import AdminAccessModal from '../components/AdminAccessModal';
 import Productcommittment from '../components/productcommittment/productcommittment';
+import Certifications from '../components/certifications/ceritifications';
+
 export default function Home() {
   return (
     <>
@@ -26,7 +28,12 @@ export default function Home() {
   <AboutCare />
 </section>
 
-{/* Product Commitment Section */}
+{/* sustainability Section */}
+<section id="product-commitment">
+  <Productcommittment />
+</section> 
+
+{/* certifications Section */}
 <section id="product-commitment">
   <Productcommittment />
 </section>
